@@ -19,17 +19,6 @@ const Footer = () => {
         {isDark ? `Jasny` : `Ciemny`}
       </button>
       Copyright &copy; {new Date().getFullYear()}. Wszystkie prawa zastrzeżone.
-      <br />
-      <Flex
-        sx={{
-          justifyContent: `center`,
-          alignItems: `center`,
-          mt: 3,
-          color: `text`,
-          fontWeight: `semibold`,
-          a: { color: `text` },
-        }}
-      </Flex>
     </ThemeFooter>
   )
 }
